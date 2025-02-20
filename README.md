@@ -6,8 +6,8 @@ Botaniq is an **AI-powered** and **dynamic** plant identification app made from 
 
 <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 10px;">
     <img src="app/Screenshot (950).png" alt="1" width="100%">
-    <img src="app/Screenshot (951).png" alt="2s" width="100%">
-    <img src="app/Screenshot (952).png" alt="3" width="100%">
+    <img src="app/Screenshot (952).png" alt="2s" width="100%">
+    <img src="app/Screenshot (953).png" alt="3" width="100%">
     <img src="app/Screenshot (956).png" alt="4" width="100%">
     <img src="app/Screenshot (954).png" alt="5" width="100%">
   <img src="app/Screenshot (955).png" alt="6" width="100%">
