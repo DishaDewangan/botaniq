@@ -1,36 +1,67 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌱 Botaniq - AI-Powered Plant Identifier
 
-## Getting Started
+Botaniq is an **AI-powered** and **dynamic** plant identification app made from scratch that helps users identify plants with just an image. Leveraging **AI-generated** insights, it provides detailed plant care tips, scientific names, and descriptions, making plant care smarter and more accessible. 🌿✨
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+✅ **AI-Powered Identification** - Upload an image, and our AI model will identify the plant instantly.  
+✅ **AI-Generated Care Tips** - Receive personalized plant care instructions dynamically.  
+✅ **Dynamic Details** - Get real-time data including the plant's common and scientific names, descriptions, and best practices.  
+✅ **Seamless UI** - A modern and intuitive interface with a nature-inspired aesthetic.  
+✅ **Fast & Accurate** - Optimized AI model ensures quick and reliable plant identification.  
+✅ **Mobile-Friendly** - Fully responsive design for seamless use on any device.  
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js, React, TypeScript, Tailwind CSS  
+- **Backend**: Next.js API Routes  
+- **AI Model**: Google Generative AI API (Gemini)  
+- **Storage**: Cloud-based image processing  
+
+## 📸 Screenshots
+
+### 🌿 Home Page
+![Home Page](https://source.unsplash.com/1600x900/?lush,greenery)
+
+### 📷 Upload & Identify
+![Upload Section](https://source.unsplash.com/1600x900/?plant,technology)
+
+### 🌱 AI-Generated Results
+![Results Section](https://source.unsplash.com/1600x900/?botany,leaf)
+
+## 📦 Installation & Setup
+
+1️⃣ Clone the repository:
+```sh
+ git clone https://github.com/DishaDewangan/botaniq.git
+ cd botaniq
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2️⃣ Install dependencies:
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3️⃣ Add your **Google AI API Key** in `.env.local`:
+```sh
+GOOGLE_API_KEY=your_api_key_here
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4️⃣ Run the development server:
+```sh
+npm run dev
+```
+  
 
-## Learn More
+## 📌 Future Enhancements
 
-To learn more about Next.js, take a look at the following resources:
+✅ AI-powered voice assistant for plant care.  
+✅ Real-time plant health monitoring using AI.  
+✅ AI-generated plant disease detection.  
+✅ Save plant identifications for future reference.  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Contributing
+Pull requests are welcome! Feel free to open issues for feature requests.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📜 License
+This project is open-source and available under the [MIT License](LICENSE).  
